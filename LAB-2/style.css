@@ -1,0 +1,155 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* General Body Style */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+/* Headings */
+h2 {
+    color: #004aad;
+    margin-bottom: 20px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    background-color: #e3e3e3;
+    padding: 10px;
+}
+
+/* Paragraphs */
+p {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 15px;
+    color: #444;
+}
+
+/* Horizontal Line */
+hr {
+    width: 80%;
+    margin: 20px auto;
+    border: 0;
+    border-top: 2px solid #ddd;
+}
+
+/* Table Styles */
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #004aad;
+    padding: 10px;
+}
+
+th {
+    background-color: #004aad;
+    color: white;
+}
+
+/* Project Boxes */
+.project {
+    width: 50%;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.project h3 {
+    color: #004aad;
+}
+
+/* Contact Form */
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #004aad;
+    border-radius: 8px;
+    text-align: left;
+}
+
+label {
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0 16px 0;
+    border: 1px solid #004aad;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Send Button */
+button {
+    background-color: #004aad;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002e6d;
+}
+
+/* Back to Top Button */
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#topBtn:hover {
+    background-color: #002e6d;
+}
+
